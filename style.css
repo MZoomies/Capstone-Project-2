@@ -1,0 +1,26 @@
+.card.h-100 {
+    border: none;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/pandaLupa.jpg");
+    position: relative;
+    border-radius: 10px;
+
+    /* Set a specific height */
+    height: 300px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+}
+
+#footer{
+    padding: 0 20 0 20;
+}
